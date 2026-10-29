@@ -7,7 +7,7 @@ const config: Core.Config.Middlewares = [
   {
   name: 'strapi::cors',
   config: {
-    origin: ['http://localhost:5173', 'https://your-frontend-url.com'],
+    origin: ['http://localhost:5173', 'https://fitness-tracker-lemon-iota.vercel.app'],
   },
 },
   'strapi::poweredBy',
