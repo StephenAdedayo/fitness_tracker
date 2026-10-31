@@ -115,9 +115,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
     if (token) {
       (async () => {
         // await Promise.all([
-        fetchUser(token);
-        fetchFoodLogs(token);
-        fetchActivityLogs(token);
+        await fetchUser(token);
+        await fetchFoodLogs(token);
+        await fetchActivityLogs(token);
         // ])
       })();
     }

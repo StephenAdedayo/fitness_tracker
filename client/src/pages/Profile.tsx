@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { useAppContext } from "../context/AppContext"
 import { useTheme } from "../context/ThemeContext"
 import  type {  ProfileFormData } from "../types"
